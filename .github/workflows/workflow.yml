@@ -52,6 +52,7 @@ jobs:
         wait-for-completion: true
         output-artifact-directory: 'org/content'
         download-signed-artifact-timeout-in-seconds: 200
+        service-unavailabletimeout-in-seconds: 10
         # wait-for-completion-timeout-in-seconds: 1
 
 
