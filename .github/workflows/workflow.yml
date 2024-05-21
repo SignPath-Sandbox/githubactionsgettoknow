@@ -57,8 +57,6 @@ jobs:
         parameters: |
               param1: "value1"
 
-
-
     - name: Upload the signed artifact file
       uses: actions/upload-artifact@v4
       with: 
