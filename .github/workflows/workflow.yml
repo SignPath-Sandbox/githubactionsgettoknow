@@ -8,11 +8,10 @@ on:
 # enviornment Variables
 env:
   OrgId: d3bcfc23-d90f-43c4-878d-c52b60c4980c
-  Build: "windows-latest"
 
 jobs:
   build:
-    runs-on: ${{ toJSON(Build) }}
+    runs-on: windows-latest
     #runs-on: 
       #group: Paid
       #group: Local
