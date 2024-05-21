@@ -54,6 +54,9 @@ jobs:
         download-signed-artifact-timeout-in-seconds: 200
         # service-unavailable-timeout-in-seconds: 5
         # wait-for-completion-timeout-in-seconds: 1
+        parameters: |
+              param1: "value1"
+
 
 
     - name: Upload the signed artifact file
