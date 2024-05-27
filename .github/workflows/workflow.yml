@@ -52,7 +52,7 @@ jobs:
         signing-policy-slug: 'SP'
         # artifact-configuration-slug: 'initial'
         artifact-configuration-slug: 'zip3'
-        github-artifact-id: '${{steps.<upload-artifact-step-id>.outputs.artifact-id}}'
+        github-artifact-id: '${{steps.upload-unsigned-artifact.outputs.artifact-id}}'
         #github-token: '${{ secrets.GITHUB_TOKEN }}'
         #github-extended-verification-token: '${{ secrets.EXTENDED_VERIFICATION_CORRECT }}'
         #github-extended-verification-token: '${{ secrets.EXTENDED_VERIFICATION_NO_PERMISSION }}'
