@@ -10,6 +10,12 @@ env:
   OrgId: d3bcfc23-d90f-43c4-878d-c52b60c4980c
 
 jobs:
+  invalid:
+    runs-on: [other_label]
+    steps:
+    - name: hello-world
+      run: |
+        Write-Output "Hello World!"
   build:
     runs-on: windows-latest
     #runs-on: 
